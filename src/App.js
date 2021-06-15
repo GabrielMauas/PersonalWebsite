@@ -1,7 +1,11 @@
 import './App.css';
 import './normalize.css';
 import Header from './components/Header';
-import Section1 from './components/Section1';
+import About from './components/About';
+import Skills from './components/Skills';
+import Proyects from './components/Proyects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -9,9 +13,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Section1 />
-
-      
+      <About />
+      <Skills />
+      <Proyects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -8,18 +8,22 @@ function Header() {
         setOpen(!open);
     }
 
+
     return(
         <div>
             <header className="header">
-                <div className="navbar-menu" id="nav_menu">
-                    <ul className="navbar">
-                        <li className="navbar-link" href="#">About</li>
-                        <li className="navbar-link" href="#">Proyects</li>
-                        <li className="navbar-link" href="#">Contact</li>
-                    </ul>
-                </div>
-                <div className="navbar-toggle" id="nav_toggle" onClick={handleOpen}></div>
+                <nav className="nav">
+                    <div className="navbar-menu" id="nav_menu">
+                        <ul className={open ? "navbar active" : "navbar"}>
+                            <a className="navbar-link" href="#about">About</a>
+                            <a className="navbar-link" href="#skills">Skills</a>
+                            <a className="navbar-link" href="#proyects">Proyects</a>
+                            <a className="navbar-link" href="#contact">Contact</a>
+                        </ul>
+                    </div>
 
+                    <div className={open ? "navbar-toggle active" : "navbar-toggle"} id="nav_toggle" onClick={handleOpen}></div>
+                </nav>
                 <div className="header-text">
                     <h1 className="header-title">Gabriel Mauas</h1>
                     <p className="header-subtitle">Software Developer.</p>

@@ -23,24 +23,11 @@
 }
 /* Colores */
 :root {
-  --primColor: skyblue;
+  --primColor: #87ceeb;
   --whiteColor: #FAFAFF;
   --darkColor: #000000;
   --textColor: #697477;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* == GLOBALES == */
 *,::before,::after{
@@ -56,8 +43,34 @@ body {
   height: 100%;
   line-height: 1.6;
 }
+a {
+  text-decoration: none;
+}
+h1, h2, h3, p {
+  margin: 0;
+}
 
-.section {}
+.section {
+  padding: 4.5rem 2rem;
+  height: 100vh;
+}
+.section-title {
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 3rem;
+  margin: auto;
+  width: 4rem;
+  height: .2rem;
+  background-color: var(--primColor);
+}
 
 
 /* == HEADER SECTION == */
@@ -76,30 +89,37 @@ body {
   color: var(--whiteColor);
   font-size: var(--med);
 }
+
 .navbar-link:hover {
   border-bottom: var(--whiteColor) .15rem solid;
   cursor: pointer;
   margin-bottom: -.15rem;
 }
+.nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-right: 1rem;
+  width: 100vw;
+  height: 10vh;
+  z-index: 100;
+  background-color: var(--primColor);
+}
 
 @media screen and (max-width: 767px) {
 
   .navbar-toggle {
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    width: 2rem;
-    height: 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     cursor: pointer;
     outline: none;
+    background: var(--primColor);
   }
   .navbar-toggle::before {
     content: '';
     position: absolute;
-    top: 2rem;
+    top: 1.5rem;
     background-color: var(--whiteColor);
     width: 2rem;
     height: .3rem;
@@ -109,7 +129,7 @@ body {
   .navbar-toggle::after {
     content: '';
     position: absolute;
-    top: 2rem;
+    top: 1.5rem;
     background-color: var(--whiteColor);
     width: 2rem;
     height: .3rem;
@@ -122,8 +142,38 @@ body {
   .navbar-toggle.active::after {
     transform: translateY(0px) rotate(-45deg);
   }
-}
 
+  .nav {
+    height: 3rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3rem;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: rgba(0,0,0, 0.9);
+    transition: .5s;
+  }
+  .navbar.active {
+    left: 0;
+  }
+  .navbar-link {
+    margin: 1.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  .navbar-link:hover {
+    color: var(--primColor);
+    border-bottom: none;
+    margin-bottom: 1.5rem;
+  }
+
+
+}
 
 /* Header */
 .header {
@@ -132,15 +182,14 @@ body {
 }
 .header-text {
   position: relative;
+  top: 0;
   color: var(--whiteColor);
   line-height: 1.2;
   margin-left: .5rem;
-
-
 }
 .header-title {
   position: absolute;
-  top: 3rem;
+  top: 7rem;
   left: 1rem;
   font-size: var(--big);
   font-weight: var(--bold);
@@ -149,8 +198,8 @@ body {
 }
 .header-subtitle {
   position: absolute;
-  top: 18rem;
-  left: .5rem;
+  top: 24rem;
+  left: 1rem;
   font-size: 2rem;
   font-weight: var(--semi-bold);
   text-shadow: 0 15px 20px rgba(0,0,0, 0.4);
@@ -160,14 +209,19 @@ body {
   right: 50%;
   left: 44%;
   /* margin-top: 10rem; */
-  bottom: 0;
+  bottom: 2rem;
+
 }
 
 @media screen and (min-width: 768px) {
 
+  .header {
+    height: 100vh;
+  }
+
   .header-text {
     margin-left: 0;
-    margin-top: 8rem;
+    top: 10rem;
 
   }
   .header-title {
@@ -176,7 +230,7 @@ body {
     left: 10%;
   }
   .header-subtitle {
-    top: 12rem;
+    top: 14rem;
     left: 10%;
   }
   .header-arrow {
@@ -188,14 +242,47 @@ body {
 }
 
 
-
-/* == SECTION 1 == */
-.section1 {}
-
-/* About */
-.about {}
+/* == ABOUT == */
+.about {
+  background-color: var(--darkColor);
+}
+.about-title {
+  color: var(--whiteColor);
+}
+.about-content {
+  width: 50%;
+  padding: 1rem;
+}
+.about-subtitle {
+  color: var(--primColor);
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
 .about-text {
-  font-size: 2rem;
+  font-size: var(--normal);
+  color: var(--whiteColor);
+  font-weight: var(--reg);
+}
+.about-links {
+  display: flex;
+  margin-top: 2rem;
+  list-style-type: none;
+  color: var(--whiteColor);
+  margin-left: -2rem;
+}
+.about-links a {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #697477;
+}
+.about-links a:hover {
+  color: var(--primColor);
+}
+@media screen and (max-width: 767px) {
+  .about-content {
+    width: 100%;
+  }
 }
 
 /* Skills section */
