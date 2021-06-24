@@ -51,14 +51,15 @@ h1, h2, h3, p {
 }
 
 .section {
-  padding: 4.5rem 2rem;
-  height: 100vh;
+  padding: 5rem 2rem;
+  min-height: 100vh;
 }
 .section-title {
   position: relative;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
+  color: var(--textColor);
 }
 .section-title::after {
   content: '';
@@ -87,7 +88,7 @@ h1, h2, h3, p {
   margin-right: 2rem;
   text-decoration: none;
   color: var(--whiteColor);
-  font-size: var(--med);
+  font-size: 1.1rem;
 }
 
 .navbar-link:hover {
@@ -101,7 +102,7 @@ h1, h2, h3, p {
   top: 0;
   padding-right: 1rem;
   width: 100vw;
-  height: 10vh;
+  height: 9vh;
   z-index: 100;
   background-color: var(--primColor);
 }
@@ -122,7 +123,7 @@ h1, h2, h3, p {
     top: 1.5rem;
     background-color: var(--whiteColor);
     width: 2rem;
-    height: .3rem;
+    height: .2rem;
     transform: translateY(-5px);
     transition: 0.3s;
   }
@@ -132,7 +133,7 @@ h1, h2, h3, p {
     top: 1.5rem;
     background-color: var(--whiteColor);
     width: 2rem;
-    height: .3rem;
+    height: .2rem;
     transform: translateY(5px);
     transition: 0.3s;
   }
@@ -286,6 +287,167 @@ h1, h2, h3, p {
 }
 
 /* Skills section */
-.skills {}
-.skills-list {}
-.skills-item {}
+.skills {
+  background-color: white;
+}
+.skills-title {
+  font-size: var(--med);
+  color: var(--primColor);
+  margin: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skills-title:last-of-type {
+  margin-top: 3rem;
+}
+
+.skills-title i{
+  font-size: 2rem;
+  margin-right: .2rem;
+}
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  gap: 1rem;
+  margin: 2rem auto;
+}
+
+.skills-item {
+  list-style: none;
+  padding: 1rem;
+  background-color: var(--whiteColor);
+  border-radius: 1rem;
+  text-align: center;
+  font-size: var(--sm);
+  color: var(--textColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-item:hover {
+  background-color: var(--primColor);
+  color: var(--whiteColor);
+  transform: translateY(-.2rem);
+  transition: transform 0.2s ease-out;
+}
+.skills-item i {
+  font-size: 1.5rem;
+  margin-right: .2rem;
+}
+
+@media screen and (max-width: 767px) {
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 100%;
+    margin: 2rem auto;
+    gap: 1rem;
+  }
+  .skills-title {
+    justify-content: center;
+    margin-right: 3rem;
+  }
+  .skills-item {
+    padding: .7rem;
+  }
+}
+
+/* == Proyects == */
+.proyects {
+  background-color: var(--whiteColor);
+}
+.proyects h2 {
+  color: #000000;
+}
+.proyects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 90%;
+  margin: 0 auto;  
+}
+@media screen and (max-width: 767px) {
+  .proyects-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+}
+
+/* == Proyect Card == */
+.pr-card {
+  border-radius: 1rem;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  background-size: cover;
+  min-height: 17rem;
+}
+.pr-info {
+  position: relative;
+  /* bottom: 0; */
+  width: 100%;
+  height: 17rem;
+  background-color: #fff;
+  opacity: 0.8;
+  transform: translateY(100%)
+    translateY(-4rem)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+.pr-info::before {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  filter: blur(10px);
+  opacity: 0;
+  transform: translateY(-100%)
+    translateY(17rem)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+.pr-card:hover .pr-info,
+.pr-card:hover .pr-info::before {
+  transform: translateY(0) translateZ(0);
+}
+.pr-title {
+  text-align: center;
+  font-size: var(--med);
+  font-weight: var(--bold);
+  padding: 1rem;
+}
+.pr-descr {
+  margin: 1rem;
+}
+.pr-links {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.pr-link {
+  padding: .5rem 2rem;
+  background: var(--primColor);
+  border-radius: .5rem;
+  cursor: pointer;
+  z-index: 5;
+  text-decoration: none;
+  color: var(--whiteColor);
+}
+.pr-link:hover {
+  background: transparent;
+  border: var(--primColor) .1rem solid;
+  margin: -.1rem;
+  color: var(--primColor);
+}

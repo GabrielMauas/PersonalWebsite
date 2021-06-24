@@ -8,7 +8,6 @@ function Header() {
         setOpen(!open);
     }
 
-
     return(
         <div>
             <header className="header">
@@ -28,9 +27,9 @@ function Header() {
                     <h1 className="header-title">Gabriel Mauas</h1>
                     <p className="header-subtitle">Software Developer.</p>
                 </div>
-                <div>
+                <a href="#about">
                     <img src="https://icongr.am/feather/chevron-down.svg?size=50&color=fafaff" alt="arrow" className="header-arrow"/>
-                </div>
+                </a>
             </header>
         </div>
     );
