@@ -54,6 +54,11 @@ h1, h2, h3, p {
   padding: 5rem 2rem;
   min-height: 100vh;
 }
+@media (max-width: 767px) {
+  .section {
+    padding: 5rem 1rem;
+  }
+}
 .section-title {
   position: relative;
   font-size: 2rem;
@@ -451,3 +456,83 @@ h1, h2, h3, p {
   margin: -.1rem;
   color: var(--primColor);
 }
+
+/* == Contact == */
+.contact-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 90%;
+}
+.contact-data {
+  padding-left: 7rem;
+}
+.contact-data div {
+  margin: 2rem;
+}
+.contact-data h3 {
+  color: var(--primColor);
+  font-size: var(--med);
+  margin-bottom: 1rem;
+}
+.contact-data a {
+  color: var(--textColor);
+  cursor: pointer;
+}
+.c-form {
+  padding-right: 7rem;
+  margin: 2rem;
+}
+.c-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+
+}
+.c-input {
+  padding: .5rem 1rem;
+  border: var(--darkColor) 1px solid;
+  border-radius: .3rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.c-button {
+  padding: .8rem 1.7rem;
+  background-color: var(--primColor);
+  border: none;
+  border-radius: .3rem;
+  color: var(--whiteColor);
+  font-weight: var(--semi-bold);
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+.c-button:hover {
+  border: var(--primColor) 1px solid;
+  background-color: white;
+  color: var(--primColor);
+}
+
+@media (max-width: 767px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-data {
+    padding: 0;
+  }
+  .contact-data div {
+    margin-top: -.2rem;
+  }
+  .c-form {
+    padding: 0;
+  }
+  .c-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .c-input {
+    margin-bottom: 1rem;
+  }
+}
+
