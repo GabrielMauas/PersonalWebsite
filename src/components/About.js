@@ -9,8 +9,13 @@ const About = () => {
 
                     <h2 className="section-title about-title">About</h2>
                     <div className="about-content">
-                        <h3 className="about-subtitle">I am Gabriel Mauas</h3>
-                        <p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum risus, rutrum eget magna ac, malesuada luctus dui. Fusce vel nunc porta, tempor urna ac, elementum neque. Mauris hendrerit pharetra nibh, eu pulvinar sem egestas a. Pellentesque convallis hendrerit volutpat. Fusce sagittis justo quis quam consectetur, sed mattis augue sollicitudin. Nulla vitae ante sem. Etiam feugiat, purus sed maximus dapibus, nibh dui luctus sem, non luctus tortor arcu et lacus.</p>
+                        <h3 className="about-subtitle">A little about me...</h3>
+                        <p className="about-text">
+                            I am a self-taught developer with one year of experience based in Buenos Aires, Argentina. I like to 
+                            describe myself as an easy adapter and fast learner too. I'm interested on the entire process of a 
+                            proyect so I can develop both frontend and backend. I think that for every problem there's a solution 
+                            so anything can be solved using logic and inventiveness.
+                        </p>
                         <ul className="about-links">
                             <a href="https://github.com/GabrielMauas" target="_blank" rel="noreferrer"><i className="bx bxl-github"></i></a>
                             <a href="https://twitter.com/MauasGabriel" target="_blank" rel="noreferrer"><i className="bx bxl-twitter"></i></a>

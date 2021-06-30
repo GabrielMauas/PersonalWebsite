@@ -391,6 +391,8 @@ h1, h2, h3, p {
     0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 17rem;
 }
 .pr-info {
@@ -439,7 +441,7 @@ h1, h2, h3, p {
   font-size: 1.5rem;
   display: flex;
   justify-content: space-around;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .pr-link {
   padding: .5rem 2rem;

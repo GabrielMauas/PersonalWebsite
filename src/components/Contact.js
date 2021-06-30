@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
-const emailjs = require('emailjs-com');
 
 const Contact = () => {
 
