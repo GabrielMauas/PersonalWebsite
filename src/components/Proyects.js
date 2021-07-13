@@ -9,11 +9,11 @@ const Proyects = () => {
             <h2 className='section-title'>Proyects</h2>
             <div className="proyects-container">
                 <ProyectCard  
-                    image="https://i.ibb.co/HrcNNdL/crudmern.png"
-                    title="CRUD App"
+                    image="https://i.ibb.co/jwgf1ff/todoapp.png"
+                    title="To-Do App"
                     text="Web App that allows to execute CRUD operations on a database. I used the MERN stack (MongoDB, Express.js, Node.js and React)."
-                    link="https://github.com/GabrielMauas/crudmernapp"
-                    ghLink="https://github.com/GabrielMauas/crudmernapp" 
+                    link="https://gm-todoapp.netlify.app/"
+                    ghLink="https://github.com/GabrielMauas/to-do_MERNapp" 
                 />
                 <ProyectCard  
                     image="https://i.ibb.co/3WcTfyJ/websockets.png" 
@@ -30,25 +30,11 @@ const Proyects = () => {
                     ghLink="https://github.com/GabrielMauas/webfestivalmusica" 
                 />
                 <ProyectCard  
-                    image="https://i.ibb.co/WysbBk0/todoapp.png" 
-                    text="To-Do app using React. I made this one to learn about functional components and hooks."
-                    title="To-Do App"
-                    link="https://todoapp2-gm.netlify.app/"
-                    ghLink="https://github.com/GabrielMauas/to-do_app" 
-                />
-                <ProyectCard  
-                    image="https://i.ibb.co/TrQtG20/peluqueriapp.png" 
-                    text="Web app for a proyect I wanted to start. It is just the frontend but I will update it and also develop the backend to make it functional."
-                    title="PeluqueriApp"
-                    link="https://peluqueriapp.netlify.app/" 
-                    ghLink="https://github.com/GabrielMauas/peluqueriapp" 
-                />
-                <ProyectCard  
-                    image="https://i.ibb.co/gvgVqdz/netflix.png"
-                    text="A copy of the Netflix Sign In page using only CSS. I saw someone making this stuff and wanted to give it a try."
-                    title="Netflix Sign In Page"
-                    link="https://netflixsignin-gm.netlify.app/" 
-                    ghLink="https://github.com/GabrielMauas/Netflix-Sign-In-Page-by-GabrielMauas" 
+                    image="https://i.ibb.co/MD0MLmt/gmauas-vercel-app.png" 
+                    text="Personal Responsive Website using React."
+                    title="Personal Website"
+                    link="https://gmauas.vercel.app/"
+                    ghLink="https://github.com/GabrielMauas/PersonalWebsite"
                 />
                
             </div>
