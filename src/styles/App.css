@@ -407,9 +407,9 @@ h1, h2, h3, p {
     translateZ(0);
   transition: transform 0.3s ease-out;
 }
-.pr-info::before {
-  z-index: 2;
-  display: block;
+/* .pr-info::before {
+  /* z-index: 2; */
+  /* display: block;
   position: absolute;
   bottom: 0;
   content: '';
@@ -422,8 +422,9 @@ h1, h2, h3, p {
   transform: translateY(-100%)
     translateY(17rem)
     translateZ(0);
-  transition: transform 0.3s ease-out;
-}
+  transition: transform 0.3s ease-out; */
+/* } */ 
+
 .pr-card:hover .pr-info,
 .pr-card:hover .pr-info::before {
   transform: translateY(0) translateZ(0);
@@ -448,7 +449,7 @@ h1, h2, h3, p {
   background: var(--primColor);
   border-radius: .5rem;
   cursor: pointer;
-  z-index: 5;
+  z-index: 99;
   text-decoration: none;
   color: var(--whiteColor);
 }
