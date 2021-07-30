@@ -19,7 +19,7 @@ const Proyects = () => {
                     image="https://i.ibb.co/jwgf1ff/todoapp.png"
                     title="To-Do App"
                     text="Web App that allows to execute CRUD operations on a database. I used the MERN stack (MongoDB, Express.js, Node.js and React)."
-                    link="https://gm-todoapp.netlify.app/"
+                    link="https://gm-todoapp.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/to-do_MERNapp" 
                 />
                 <ProyectCard  
