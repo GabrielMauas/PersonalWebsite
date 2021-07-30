@@ -9,6 +9,13 @@ const Proyects = () => {
             <h2 className='section-title'>Proyects</h2>
             <div className="proyects-container">
                 <ProyectCard  
+                    image="https://ibb.co/gjBDrGt"
+                    title="Task List App"
+                    text="Made with React using the Chakra UI library for the fist time. It uses localStorage to store the tasks. It also has dark mode option."
+                    link="https://tasklist-app.vercel.app/"
+                    ghLink="https://github.com/GabrielMauas/TaskList-App" 
+                />
+                <ProyectCard  
                     image="https://i.ibb.co/jwgf1ff/todoapp.png"
                     title="To-Do App"
                     text="Web App that allows to execute CRUD operations on a database. I used the MERN stack (MongoDB, Express.js, Node.js and React)."
