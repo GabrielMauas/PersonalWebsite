@@ -14,10 +14,10 @@ function Header() {
                 <nav className="nav">
                     <div className="navbar-menu" id="nav_menu">
                         <ul className={open ? "navbar active" : "navbar"}>
-                            <a className="navbar-link" href="#about">About</a>
+                            <a className="navbar-link" href="#about">Sobre Mi</a>
                             <a className="navbar-link" href="#skills">Skills</a>
-                            <a className="navbar-link" href="#proyects">Proyects</a>
-                            <a className="navbar-link" href="#contact">Contact</a>
+                            <a className="navbar-link" href="#proyects">Proyectos</a>
+                            <a className="navbar-link" href="#contact">Contacto</a>
                         </ul>
                     </div>
 
@@ -25,7 +25,7 @@ function Header() {
                 </nav>
                 <div className="header-text">
                     <h1 className="header-title">Gabriel Mauas</h1>
-                    <p className="header-subtitle">Software Developer.</p>
+                    <p className="header-subtitle">Junior Software Developer.</p>
                 </div>
                 <a href="#about">
                     <img src="https://icongr.am/feather/chevron-down.svg?size=50&color=fafaff" alt="arrow" className="header-arrow"/>

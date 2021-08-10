@@ -6,40 +6,42 @@ const Proyects = () => {
 
     return(
         <div className="section proyects" id="proyects">
-            <h2 className='section-title'>Proyects</h2>
+            <h2 className='section-title'>Proyectos</h2>
             <div className="proyects-container">
                 <ProyectCard  
                     image="https://i.ibb.co/r71ZQg5/Tasklist-app.png"
                     title="Task List App"
-                    text="Made with React using the Chakra UI library for the fist time. It uses localStorage to store the tasks. It also has dark mode option."
+                    text="Aplicación web para registrar y eliminar tareas. Está desarrollada con React utlizando la librería Chakra UI. Las tareas se almacenan en el LocalStorage. 
+                        También posee una opcíon para cambiar el tema de claro a oscuro."
                     link="https://tasklist-app.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/TaskList-App" 
                 />
                 <ProyectCard  
                     image="https://i.ibb.co/jwgf1ff/todoapp.png"
                     title="To-Do App"
-                    text="Web App that allows to execute CRUD operations on a database. I used the MERN stack (MongoDB, Express.js, Node.js and React)."
+                    text="Mi primera aplicación utlizando el Stack MERN (MongoDB, Express, React, Nodejs). Permite realizar operaciones CRUD en una base de datos no relacional.
+                        El front está hecho con React y Chakra UI y la API con Nodejs y Express. El servidor está desplegado en Heroku."
                     link="https://gm-todoapp.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/to-do_MERNapp" 
                 />
                 <ProyectCard  
                     image="https://i.ibb.co/3WcTfyJ/websockets.png" 
                     title="Chat App"
-                    text="Chat Web application using the Socket.io library. You can chat real time with whoever is in the server."
+                    text="Aplicación de Chat en tiempo real utlizando la librería Socket.io. El servidor no está desplegado actualmente pero se puede ver el código en el repositorio."
                     link="https://github.com/GabrielMauas/chatappws" 
                     ghLink="https://github.com/GabrielMauas/chatappws" 
                 />
                 <ProyectCard  
                     image="https://i.ibb.co/R3y0v9C/webrockfest.png" 
-                    text="Static website I made in a JS course to learn about manipulating the DOM. It is just HTML, CSS (Sass) and JS."
-                    title="Website for a rock fest"
+                    text="Sitio web estático hecho en un curso para aprender las bases de HTML, CSS y manipular el DOM con JavaScript. Aprendí sobre el manejo de eventos y agregar componentes al HTML de forma dinámica."
+                    title="Sitio web para festival de rock"
                     link="https://festivalmusica-gm.netlify.app/" 
                     ghLink="https://github.com/GabrielMauas/webfestivalmusica" 
                 />
                 <ProyectCard  
                     image="https://i.ibb.co/MD0MLmt/gmauas-vercel-app.png" 
-                    text="Personal Responsive Website using React."
-                    title="Personal Website"
+                    text="Sitio Web personal (el que estás viendo) hecho con React y Sass."
+                    title="Sitio Personal"
                     link="https://gmauas.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/PersonalWebsite"
                 />

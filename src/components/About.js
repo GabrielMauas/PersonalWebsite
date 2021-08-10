@@ -7,14 +7,13 @@ const About = () => {
         <div>
             <section className="section about" id="about">
 
-                    <h2 className="section-title about-title">About</h2>
+                    <h2 className="section-title about-title">Sobre Mi</h2>
                     <div className="about-content">
-                        <h3 className="about-subtitle">A little about me...</h3>
+                        <h3 className="about-subtitle">Un poco sobre mi...</h3>
                         <p className="about-text">
-                            I am a self-taught developer with one year of experience based in Buenos Aires, Argentina. I like to 
-                            describe myself as an easy adapter and fast learner too. I'm interested on the entire process of a 
-                            proyect so I can develop both frontend and backend. I think that for every problem there's a solution 
-                            so anything can be solved using logic and inventiveness.
+                            Soy desarrollador de software desde principios de 2020 y estudiante de Sistemas en la Universidad de Palermo. Tengo 20 años y vivo en Buenos Aires, Argentina.
+                            Me caracterizo por mi facilidad para adaptarme y de obsorber nuevos conocimientos. Me interesa todo el proceso de desrrollo de un proyecto por lo que puedo programar
+                            tanto el Frontend como el Backend de una aplicación.
                         </p>
                         <ul className="about-links">
                             <a href="https://github.com/GabrielMauas" target="_blank" rel="noreferrer"><i className="bx bxl-github"></i></a>

@@ -31,7 +31,7 @@ const Contact = () => {
             message: msg,
             reply_to: mail
         }, "user_IEsC4yfCbPP6GxwvHkMXz")
-            .then(swal('Message Sent!', 'I`ll be back to you soon', 'success')); 
+            .then(swal('Mensaje Enviado!', 'Gracias por el mensaje, te responderé en breve.', 'success')); 
 
         setName('');
         setMail('');
@@ -41,7 +41,7 @@ const Contact = () => {
 
     return(
         <div className="section contact" id="contact">
-            <h2 className='section-title'>Contact</h2>
+            <h2 className='section-title'>Contacto</h2>
             <div className='contact-container'>
                 <div className='contact-data'>
                     <div>
@@ -49,7 +49,7 @@ const Contact = () => {
                         <a href="mailto:gabymauas02@gmail.com" target="_blank" rel="noreferrer">gabymauas02@gmail.com</a>
                     </div>
                     <div>
-                        <h3>Phone</h3>
+                        <h3>Teléfono</h3>
                         <a href="https://wa.link/n6q3j6" target="_blank" rel="noreferrer">+54 9 11 6799 2748</a>
                     </div>
                 </div>
