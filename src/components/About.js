@@ -20,6 +20,7 @@ const About = () => {
                             <a href="https://twitter.com/MauasGabriel" target="_blank" rel="noreferrer"><i className="bx bxl-twitter"></i></a>
                             <a href="https://www.linkedin.com/in/gabriel-mauas-928a171a4/" target="_blank" rel="noreferrer"><i className="bx bxl-linkedin"></i></a>
                             <a href="https://wa.link/n6q3j6" target="_blank" rel="noreferrer"><i className="bx bxl-whatsapp"></i></a>
+                            <a href="https://linktr.ee/gabrielmauas" target="_blank" rel="noreferrer"><i className="bx bxs-tree"></i></a>
                           
                         </ul>
                     </div>

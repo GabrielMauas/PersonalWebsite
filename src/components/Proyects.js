@@ -34,17 +34,23 @@ const Proyects = () => {
                 <ProyectCard  
                     image="https://i.ibb.co/R3y0v9C/webrockfest.png" 
                     text="Sitio web estático hecho en un curso para aprender las bases de HTML, CSS y manipular el DOM con JavaScript. Aprendí sobre el manejo de eventos y agregar componentes al HTML de forma dinámica."
-                    title="Sitio web para festival de rock"
+                    title="Sitio web básico"
                     link="https://festivalmusica-gm.netlify.app/" 
                     ghLink="https://github.com/GabrielMauas/webfestivalmusica" 
                 />
                 <ProyectCard  
                     image="https://i.ibb.co/MD0MLmt/gmauas-vercel-app.png" 
-                    text="Sitio Web personal (el que estás viendo) hecho con React y Sass."
+                    text="Sitio Web personal (el que estás viendo) hecho con React."
                     title="Sitio Personal"
                     link="https://gmauas.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/PersonalWebsite"
                 />
+                <div className='pr-card'>
+                    <div className='pr-info'>
+                        <h3 className="pr-title">Proximamente</h3>
+                        <p className="pr-descr">Estoy desarrollando nuevos proyectos para seguir aprendiendo y perfeccionando. Volvé pronto!</p>
+                    </div>
+                </div>
                
             </div>
 
