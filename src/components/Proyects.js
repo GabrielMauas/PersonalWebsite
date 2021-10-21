@@ -45,6 +45,13 @@ const Proyects = () => {
                     link="https://gmauas.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/PersonalWebsite"
                 />
+                <ProyectCard  
+                    image="https://i.ibb.co/zH3rJqL/gmdigital.png" 
+                    text="Sitio Web para agencia digital, aún en producción. Desarrollado con Next.js y SASS."
+                    title="Sitio para Agencia Digital"
+                    link="https://digitalagencyweb.vercel.app/"
+                    ghLink="https://github.com/GabrielMauas/digitalagencyweb"
+                />
                 <div className='pr-card'>
                     <div className='pr-info'>
                         <h3 className="pr-title">Proximamente</h3>
