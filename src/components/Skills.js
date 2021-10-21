@@ -19,6 +19,7 @@ const Skills = () => {
                         <p className="skills-item"><i className="bx bx-code-block"></i>PHP</p>
                         <p className="skills-item"><i className="bx bxs-data"></i>MySQL</p>
                         <p className="skills-item"><i className="bx bx-data"></i>MongoDB</p>
+                        {/* <p className="skills-item"><i className="bx bxl-firebase"></i>Firebase</p> */}
                         <p className="skills-item"><i className="bx bxl-git"></i>Git</p>
                     </div>
                     <h3 className="skills-title"><i className="bx bx-world"></i>Idiomas</h3>

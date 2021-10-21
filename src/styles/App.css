@@ -318,6 +318,9 @@ h1, h2, h3, p {
   width: 95%;
   gap: 1rem;
   margin: 2rem auto;
+  /* overflow: hidden; */
+  /* flex-wrap: nowrap; */
+  flex-shrink: 0.5;
 }
 
 .skills-item {
