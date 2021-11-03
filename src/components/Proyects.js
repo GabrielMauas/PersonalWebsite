@@ -24,20 +24,20 @@ const Proyects = () => {
                     link="https://gm-todoapp.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/to-do_MERNapp" 
                 />
-                <ProyectCard  
+                {/* <ProyectCard  
                     image="https://i.ibb.co/3WcTfyJ/websockets.png" 
                     title="Chat App"
                     text="Aplicación de Chat en tiempo real utlizando la librería Socket.io. El servidor no está desplegado actualmente pero se puede ver el código en el repositorio."
                     link="https://github.com/GabrielMauas/chatappws" 
                     ghLink="https://github.com/GabrielMauas/chatappws" 
-                />
-                <ProyectCard  
+                /> */}
+                {/* <ProyectCard  
                     image="https://i.ibb.co/R3y0v9C/webrockfest.png" 
                     text="Sitio web estático hecho en un curso para aprender las bases de HTML, CSS y manipular el DOM con JavaScript. Aprendí sobre el manejo de eventos y agregar componentes al HTML de forma dinámica."
                     title="Sitio web básico"
                     link="https://festivalmusica-gm.netlify.app/" 
                     ghLink="https://github.com/GabrielMauas/webfestivalmusica" 
-                />
+                /> */}
                 <ProyectCard  
                     image="https://i.ibb.co/MD0MLmt/gmauas-vercel-app.png" 
                     text="Sitio Web personal (el que estás viendo) hecho con React."
@@ -49,9 +49,17 @@ const Proyects = () => {
                     image="https://i.ibb.co/zH3rJqL/gmdigital.png" 
                     text="Sitio Web para agencia digital, aún en producción. Desarrollado con Next.js y SASS."
                     title="Sitio para Agencia Digital"
-                    link="https://digitalagencyweb.vercel.app/"
+                    link="https://gmdigital.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/digitalagencyweb"
                 />
+                {/* <ProyectCard  
+                    image="https://i.ibb.co/zH3rJqL/gmdigital.png" 
+                    text="Sitio Web para agencia digital, aún en producción. Desarrollado con Next.js y SASS."
+                    title=""
+                    link="https://gmdigital.vercel.app/"
+                    ghLink="https://github.com/GabrielMauas/digitalagencyweb"
+                /> */}
+                
                 <div className='pr-card'>
                     <div className='pr-info'>
                         <h3 className="pr-title">Proximamente</h3>
