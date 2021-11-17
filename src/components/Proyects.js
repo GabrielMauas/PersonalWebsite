@@ -16,14 +16,14 @@ const Proyects = () => {
                     link="https://tasklist-app.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/TaskList-App" 
                 />
-                <ProyectCard  
+                {/* <ProyectCard  
                     image="https://i.ibb.co/jwgf1ff/todoapp.png"
                     title="To-Do App"
                     text="Mi primera aplicación utlizando el Stack MERN (MongoDB, Express, React, Nodejs). Permite realizar operaciones CRUD en una base de datos no relacional.
                         El front está hecho con React y Chakra UI y la API con Nodejs y Express. El servidor está desplegado en Heroku."
                     link="https://gm-todoapp.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/to-do_MERNapp" 
-                />
+                /> */}
                 {/* <ProyectCard  
                     image="https://i.ibb.co/3WcTfyJ/websockets.png" 
                     title="Chat App"
@@ -44,6 +44,14 @@ const Proyects = () => {
                     title="Sitio Personal"
                     link="https://gmauas.vercel.app/"
                     ghLink="https://github.com/GabrielMauas/PersonalWebsite"
+                />
+                <ProyectCard  
+                    image="https://i.ibb.co/c84LDcm/tasking.png" 
+                    text="Web App desarrollada con React y la librería Chakra UI. Utiliza Firebase para la autentificación y la base de datos.
+                    La aplicación permite administrar tus proyectos y tareas e ir organizandote en el día a día."
+                    title="Tasking Web App"
+                    link="https://tasking-v1-prod.web.app/"
+                    ghLink="https://github.com/GabrielMauas/Tasking-UI"
                 />
                 <ProyectCard  
                     image="https://i.ibb.co/zH3rJqL/gmdigital.png" 

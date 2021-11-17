@@ -25,7 +25,7 @@ function Header() {
                 </nav>
                 <div className="header-text">
                     <h1 className="header-title">Gabriel Mauas</h1>
-                    <p className="header-subtitle">Web Developer.</p>
+                    <p className="header-subtitle">Frontend Developer.</p>
                 </div>
                 <a href="#about">
                     <img src="https://icongr.am/feather/chevron-down.svg?size=50&color=fafaff" alt="arrow" className="header-arrow"/>
