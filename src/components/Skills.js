@@ -15,8 +15,8 @@ const Skills = () => {
                         <p className="skills-item"><i className="bx bxl-javascript"></i>JavaScript</p>
                         <p className="skills-item"><i className="bx bxl-react"></i>React</p>
                         <p className="skills-item"><i className="bx bxl-nodejs"></i>NodeJS</p>
-                        <p className="skills-item"><i className="bx bxl-python"></i>Python</p>
-                        <p className="skills-item"><i className="bx bx-code-block"></i>PHP</p>
+                        <p className="skills-item"><i className="bx bxl-react"></i>React-Native</p>
+                        <p className="skills-item"><i className="bx bxl-vuejs"></i>Vue</p>
                         <p className="skills-item"><i className="bx bxs-data"></i>MySQL</p>
                         <p className="skills-item"><i className="bx bx-data"></i>MongoDB</p>
                         {/* <p className="skills-item"><i className="bx bxl-firebase"></i>Firebase</p> */}
