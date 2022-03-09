@@ -474,7 +474,6 @@ h1, h2, h3, p {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   place-items: center;
-  width: 60%;
 }
 .contact-data {
   padding-left: 7rem;
@@ -492,7 +491,6 @@ h1, h2, h3, p {
   cursor: pointer;
 }
 .c-form {
-  padding-right: 7rem;
   margin: 2rem;
 }
 .c-inputs {
