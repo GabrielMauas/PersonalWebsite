@@ -12,7 +12,7 @@ const About = () => {
                         <h3 className="about-subtitle">Un poco sobre mi...</h3>
                         <p className="about-text">
                             Soy desarrollador web desde principios de 2020 y estudiante de Sistemas en la Universidad de Palermo. Tengo 20 años y vivo en Buenos Aires, Argentina.
-                            Me caracterizo por mi facilidad para adaptarme y de obsorber nuevos conocimientos. Me interesa todo el proceso de desrrollo de un proyecto por lo que puedo programar
+                            Me caracterizo por mi facilidad para adaptarme y de obsorber nuevos conocimientos. Me interesa todo el proceso de desarrollo de un proyecto por lo que puedo programar
                             tanto el Frontend como el Backend de una aplicación.
                         </p>
                         <ul className="about-links">

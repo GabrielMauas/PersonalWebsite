@@ -43,7 +43,7 @@ const Contact = () => {
         <div className="section contact" id="contact">
             <h2 className='section-title'>Contacto</h2>
             <div className='contact-container'>
-                <div className='contact-data'>
+                {/* <div className='contact-data'>
                     <div>
                         <h3>Email</h3>
                         <a href="mailto:gabymauas02@gmail.com" target="_blank" rel="noreferrer">gabymauas02@gmail.com</a>
@@ -52,7 +52,7 @@ const Contact = () => {
                         <h3>Teléfono</h3>
                         <a href="https://wa.link/n6q3j6" target="_blank" rel="noreferrer">+54 9 11 6799 2748</a>
                     </div>
-                </div>
+                </div> */}
                 <form className='c-form' onSubmit={handleSubmit}>
                     <div className='c-inputs'>
                         <input type="text" placeholder="Name" className='c-input' required onChange={handleName}></input>
